@@ -1,0 +1,14 @@
+Algorithm Comparison:
+               Accuracy  Precision    Recall        F1
+KNN            0.850923   0.826207  0.850923  0.824700
+Naïve Bayes    0.741126   0.837530  0.741126  0.767788
+Decision Tree  0.999527   0.999533  0.999527  0.999528
+
+Improved Decision Tree Results:
+Accuracy     0.999527
+Precision    0.999533
+Recall       0.999527
+F1           0.999528
+dtype: float64
+
+Best Parameters: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
